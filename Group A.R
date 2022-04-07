@@ -1,1 +1,5 @@
-read.csv("StudentsPerformance.csv")
+data <- read.csv("StudentsPerformance.csv")
+print(data)
+summary(data$math.score)
+summary(data$reading.score)
+summary(data$writing.score)
